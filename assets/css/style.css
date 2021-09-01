@@ -41,6 +41,7 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
 }
 img{
     max-width: 800px;
+    
 }
 div.flex{
     display: flex;
@@ -97,7 +98,17 @@ main{}
   
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
+    @media screen and (min-width: 360px) {
+        .large-container img{
+            width: 50px;
+        }
+        .secaoDestaque h2{
+            display: inline-block;
+            width: 150px;
+            
+        }
+        
+    }
   
     @media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
