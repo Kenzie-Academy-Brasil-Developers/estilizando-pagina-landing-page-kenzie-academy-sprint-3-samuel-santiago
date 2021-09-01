@@ -91,17 +91,17 @@ __OBS__: _não é obrigatório utilizar a estrutura sugerida, você pode constru
 
 ---
 
-- Seção calendário:
+<!-- - Seção calendário:
   - Datas: `font-size: 36px;`
   - Título: `font-size: 19px;`
   - Texto: `font-size: 15px;`
-  - Botão “Sign Up”: `font-size: 32px;`
-
+  - Botão “Sign Up”: `font-size: 32px;` -->
+<!-- OK SAM-->
 ---
 
-- Seção contato: 
-  - Informações: `font-size: 15px;`
-
+<!-- - Seção contato: 
+  - Informações: `font-size: 15px; -->
+<!-- ok sam -->
 ---
 
 - Ícones, você pode fazer o download nos seguintes sites:
