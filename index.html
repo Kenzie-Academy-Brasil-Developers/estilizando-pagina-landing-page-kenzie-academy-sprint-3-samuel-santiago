@@ -7,6 +7,11 @@
   <link rel="shortcut icon" href="icon-96x96.webp">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Landing Page Kenzie Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b3ed425090.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -57,16 +62,16 @@
       <div class="flex">
 
         <!-- COLUNA LADO ESQUERDO -->
-        <div class="flex-col">
+        <div class="flex-col-esq">
           
           <div class="secaoContato-informacoes">
           
             <p>Contact us and we'll get back to you within 24 hours.</p>
             
             <ul>
-              <li><a href="#">Chicago, US</a> </li>
-              <li><a href="tel:001515151515">+00 1515151515</a></li>
-              <li><a href="malito:myemail@something.com">myemail@something.com</a></li>
+              <li><i class="fas fa-map-marker-alt"></i><a href="#"> Chicago, US</a> </li>
+              <li><i class="fas fa-mobile-alt"></i><a href="tel:001515151515"> +00 1515151515</a></li>
+              <li><i class="fas fa-envelope"></i> <a href="malito:myemail@something.com"> myemail@something.com</a></li>
             </ul>
 
           </div>
@@ -74,25 +79,25 @@
         </div>
 
         <!-- COLUNA LADO DIRETO -->
-        <div class="flex-col">
+        <div class="flex-col-dir">
           
           <h2>Contact</h2>
           
-          <form action="">
+          <form class="flex-col-dir__form" action="">
 
             <div class="form-input-model">
               <label for="nome">Nome</label>
-              <input type="text" placeholder="Name" id="nome" name="nome">
+              <input class="input_contact"  type="text" placeholder="Name" id="nome" name="nome">
             </div>
 
             <div class="form-input-model">
               <label for="email">E-mail</label>
-              <input type="text" placeholder="E-mail" id="email" name="email">
+              <input class="input_contact" type="text" placeholder="E-mail" id="email" name="email">
             </div>
 
             <div class="form-input-model">
               <label for="mensagem">E-mail</label>
-              <textarea name="mensagem" id="mensagem"></textarea>
+              <textarea class="input_contact"  name="mensagem" placeholder="Mensagem" id="mensagem"></textarea>
             </div>
 
             <input type="submit" value="Send">
