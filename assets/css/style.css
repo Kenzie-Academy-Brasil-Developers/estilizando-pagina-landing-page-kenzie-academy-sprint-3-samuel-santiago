@@ -74,7 +74,7 @@ body{
     margin:15px;
   }
 
-  ul{
+  header ul{
     display:none;
   }
 
@@ -119,14 +119,337 @@ body{
     color: #fff;
   }
 
-  .secaoDestaqueFormulario [type="button"]:hover{
-    background-color: #818181;
 
+
+
+  /* inicio Douglas */
+  .secaoSobre {
+    width: 100%;
+    margin: auto;
+  }
+  .secaoSobre figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .secaoSobre img {
+    width: 50%;
+  }
+  .flex-col {
+    padding: 30px;
   }
 
-  /* body .secaoCalendar{
+  .cinza .flex-col ul{
+    margin-left: 85px;
+    list-style: disc;
+    } 
+    
+  .secaoCursos img {
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  .secaoSobre h2 {
+    font-family: Montserrat, sans-serif;
+    margin-top: 55px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .secaoSobre p {
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    margin: 15px 0px 50px 0px;
+  }
+  .secaoSobre article {
+    text-align: left;
+  }
+  .secaoSobre span {
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    display: block;
+    font-weight: 400;
+    opacity: 40%;
+    text-align: left;
+  }
+  .secaoSobre ul {
+    max-width: 50%;
+  }
+  .cinza {
+    margin-top: 50px;
+    padding: 50px 0px;
+    background-color: rgb(130, 130, 130, 0.1);
+    width: 100vw;
+  }
+  .secaoCursos ul {
+    max-width: 80%;
+    list-style: none;
+  }
+  .secaoSobre button {
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+  }
+  .secaoCursos article h2 {
+    font-family: Montserrat, sans-serif;
+    margin-top: 55px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .secaoCursos article p {
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    font-weight: 300;
+  }
+  .secaoCursos h3 {
+    font-family: Montserrat, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 55px;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .secaoCursos li p {
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    opacity: 40%;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .secaoSobre .cinza .flex-col h2 {
+    width: 60%;
+    margin: 10px 0px 55px 0px;
+    text-align: center;
+    position: relative;
+    left: 60px;
+  }
+  .secaoSobre ul {
+    width: 75%;
+    align-items: center;
+  }
+  .secaoSobre li {
+    opacity: 40%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inicio samuel */
+  body .secaoCalendar{
     display: flex;
-  } */
+  }
 
   .secaoCalendar{
     display:flex;
@@ -260,9 +583,9 @@ body{
     display: none;
   }
 
-  .flex-col-dir__form input[type="submit"]:hover{
-    background-color:#007aff;
-    border:none;
+  .secaoContato input [type="submit"]:hover{
+    background-color: #007aff;
+
   }
   
   footer{
@@ -424,6 +747,100 @@ body{
   footer p{
     display:flex;
   }
+
+  /* inicio Media Douglas */
+
+  .secaoSobre article {
+    width: 100vw;
+    display: flex;
+    font-size: 19px;
+    font-family: Lato;
+    flex-wrap: wrap;
+  }
+  .secaoSobre span {
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    display: block;
+    font-weight: 400;
+    opacity: 40%;
+    text-align: left;
+  }
+  .cinza {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .secaoSobre img {
+    transform: translate(-150px 100px);
+  }
+  .secaoSobre figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secaoSobre .flex-col {
+    width: 50vw;
+    align-items: center;
+    padding: 8vw;
+  }
+  .secaoSobre .cinza figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secaoSobre {
+    width: 100vw;
+  }
+  .secaoCursos {
+    width: 100vw;
+    font-size: 15px;
+  }
+  .secaoCursos h3 {
+    font-size: 19px;
+  }
+  .secaoSobre img {
+    width: 70%;
+  }
+  .secaoSobre article .cinza img {
+    width: 35%;
+  }
+  .cinza li {
+    width: 30vw;
+  }
+
+
+  .secaoCursos ul {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .secaoCursos h2 p {
+    align-items: center;
+  }
+  .secaoCursos li {
+    width: 30%;
+  }
+  .secaoCursos article {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .secaoSobre button {
+    width: 10vw;
+  }
 }
+
+
+
+
+
+
+
+
+
+
 
 /* ------------MEDIA QUERIE------------  */
