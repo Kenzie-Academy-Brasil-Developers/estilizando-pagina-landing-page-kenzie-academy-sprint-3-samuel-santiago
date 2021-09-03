@@ -51,7 +51,7 @@ h1 h3 p span li {
 
 body{
   width: 100vw;
-     
+  overflow-x: hidden;   
 }
 
   header img{
@@ -84,11 +84,11 @@ body{
   }
 
   .secaoDestaque {
+    width:100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: -1px;
     background-color: #00043e;
     color: #fff;
   }
@@ -194,6 +194,13 @@ body{
     border: 1px solid gainsboro;
     border-radius: 8px;
   }
+
+  .secaoCursos article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .secaoCursos article h2 {
     font-family: Montserrat, sans-serif;
     margin-top: 55px;
@@ -596,7 +603,7 @@ body{
   }
   footer button{
     border: none;
-    background: white;
+    background:transparent;
   }
 
   footer button:hover{
@@ -808,7 +815,6 @@ body{
   .cinza li {
     width: 30vw;
   }
-
 
   .secaoCursos ul {
     width: 100vw;
