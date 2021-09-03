@@ -29,7 +29,9 @@ family=Lato -> Títulos, textos
 /* FONTS */
 
 /* VARIÁVEIS */
-:root{}
+:root{
+
+}
   
 /* GERAL */
 html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
@@ -99,16 +101,106 @@ main{}
 
 /* MEDIA QUERIES */
     @media screen and (min-width: 360px) {
-        .large-container img{
-            width: 50px;
-        }
-        .secaoDestaque h2{
-            display: inline-block;
-            width: 150px;
+        
+        header{
+            width: 100%;
+            background-color: #00043e;
             
         }
         
+        .large-container{
+            width: 100%;
+        }
+        
+        .large-container img{
+            width: 15%;
+            transition: all 0.9s;
+            margin-left: 12px;
+        }
+        
+        .large-container img:hover{
+            filter: grayscale(1);
+        }
+        
+        .secaoDestaque{
+            background-color: #00043e;
+            
+        }
+        
+        .secaoDestaque h2{
+            width: 60%;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 25px;
+            padding: 2px 10px;
+            margin: 0% 8%;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;    
+        }
+        
+        .secaoDestaque p{
+            width: 60%;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 14px;
+            padding: 0px 10px;
+            margin: 1% 8%;
+                
+        }
+        .secaoDestaqueFormulario{
+            display: flex;
+            margin-top: 10px;
+            padding-bottom: 25px;
+            
+        }
+        
+        .secaoDestaqueFormulario input{
+            width: 35%;
+            margin-left: 10%;
+            padding: 3px 0px;
+            border-radius: 5px 0px 0px 5px;
+        }
+        
+        .secaoDestaqueFormulario button{
+            background-color: #007aff;
+            color: white;
+            border: none;
+            border-radius: 0px 5px 5px 0px;
+        }
+        header nav {
+            display: none;
+        }
     }
-  
-    @media screen and (min-width: 800px) {}
+        
+    @media screen and (min-width: 800px) {
+        
+        header{
+            display: flex;
+            
+        }
+        
+        header nav {
+            display: inline;
+        }
+        
+        figure{
+            display: flex;
+            width: 200px;
+        }
+        .secaoDestaque{
+            background-image: url('/assets/img/background-destaque.webp');
+            height: 400px;
+            background-position: top;
+            background-size: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+       .large-container ul{
+            display: inline-flex;
+        }
+
+    }
 /* MEDIA QUERIES */
