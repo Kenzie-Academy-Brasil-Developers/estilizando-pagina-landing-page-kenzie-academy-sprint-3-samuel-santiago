@@ -44,6 +44,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
 }
 
+
 h1 h3 p span li {
   font-family: 'Lato', sans-serif;
 } 
@@ -53,9 +54,79 @@ body{
      
 }
 
-  body .secaoCalendar{
-    display: flex;
+  header img{
+    width: 15%;
+    padding:15px 0 0 20px;;
   }
+
+  header figure figcaption{
+    display:none;
+  }
+
+  header .large-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #00043e;
+  }
+
+  header .large-container nav{
+    margin:15px;
+  }
+
+  ul{
+    display:none;
+  }
+
+  #menu{
+    width:30px;
+    padding: 0 15px 0 30px;
+  }
+
+  .secaoDestaque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: -1px;
+    background-color: #00043e;
+    color: #fff;
+  }
+
+  .secaoDestaque h2{
+    width:80%;
+  }
+
+  .secaoDestaque p{
+    margin: 15px;
+  }
+
+  .secaoDestaqueFormulario input, button{
+    padding: 5px;
+    border:none;
+    margin:0 -5px 50px 0;
+  }
+
+  .secaoDestaqueFormulario [type="email"]{
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+    color: #818181;
+  }
+
+  .secaoDestaqueFormulario [type="button"]{
+    background-color: #007aff;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+  }
+
+  .secaoDestaqueFormulario [type="button"]:hover{
+    background-color: #818181;
+
+  }
+
+  /* body .secaoCalendar{
+    display: flex;
+  } */
 
   .secaoCalendar{
     display:flex;
@@ -188,6 +259,11 @@ body{
   .secaoContato label{
     display: none;
   }
+
+  .flex-col-dir__form input[type="submit"]:hover{
+    background-color:#007aff;
+    border:none;
+  }
   
   footer{
     display:flex;
@@ -225,7 +301,44 @@ body{
     width:100vw;
   }
 
-  .calendario{
+  header .large-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #00043e;
+  }
+
+  header .large-container a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#fff;
+  }
+
+  header img {
+  width: 35px;
+  padding:10px 0 0 0;
+  }
+
+  #menu{
+    display:none;
+  }
+  
+  .secaoDestaque{
+  padding: 50px;
+  background-image: url(../img/background-destaque.webp);
+  background-position: right top;
+  background-size: cover;
+  }
+  
+  header nav ul{
+    display:flex;  
+  }
+
+  header nav ul li{
+    padding: 0 0 0 20px;
+  }
+
+  .calendario {
     max-width:1000px;
     display:flex;
     flex-direction:row;
