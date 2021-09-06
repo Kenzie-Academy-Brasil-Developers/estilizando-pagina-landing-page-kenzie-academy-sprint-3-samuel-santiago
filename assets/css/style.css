@@ -195,6 +195,12 @@ body{
     border-radius: 8px;
   }
 
+  .secaoSobre button:hover {
+    background-color: #007aff;
+    color:#fff;
+    font-weight:bold;
+  }
+
   .secaoCursos article{
     display: flex;
     flex-direction: column;
@@ -529,6 +535,10 @@ body{
     width: 100%;
   }
 
+  .secaoCalendar button:hover{
+    background-color:#00043e;
+  }
+
   .secaoCalendar .calendario-data-rodape{
     font-size: 36px;
     display: flex;
@@ -658,6 +668,8 @@ body{
   background-image: url(../img/background-destaque.webp);
   background-position: right top;
   background-size: cover;
+  padding-left: 0;
+  padding-right: 0;
   }
   
   header nav ul{
@@ -791,6 +803,8 @@ body{
     align-items: center;
     padding: 8vw;
   }
+
+
   .secaoSobre .cinza figure {
     display: flex;
     justify-content: center;
@@ -809,6 +823,7 @@ body{
   .secaoSobre img {
     width: 70%;
   }
+  .secaoSobre .flex
   .secaoSobre article .cinza img {
     width: 35%;
   }
