@@ -120,9 +120,7 @@ body{
   }
 
 
-
-
-  /* inicio Douglas */
+  /************************ inicio Douglas ************************/
   .secaoSobre {
     width: 100%;
     margin: auto;
@@ -253,213 +251,7 @@ body{
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* inicio samuel */
+/******************** inicio samuel ***********************/
   body .secaoCalendar{
     display: flex;
   }
@@ -662,16 +454,7 @@ body{
   #menu{
     display:none;
   }
-  
-  .secaoDestaque{
-  padding: 50px;
-  background-image: url(../img/background-destaque.webp);
-  background-position: right top;
-  background-size: cover;
-  padding-left: 0;
-  padding-right: 0;
-  }
-  
+
   header nav ul{
     display:flex;  
   }
@@ -680,6 +463,26 @@ body{
     padding: 0 0 0 20px;
   }
 
+  .secaoDestaque{
+    padding: 50px;
+    background-image: url(../img/background-destaque.webp);
+    background-position: right top;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .secaoDestaque h2{
+    font-size: 63px;
+  } 
+
+  .secaoDestaque p{
+    font-size:21px;
+  }
+
+  .secaoDestaque .secaoDestaqueFormulario button{
+    font-size: 14px;
+  }   
   .calendario {
     max-width:1000px;
     display:flex;
@@ -767,7 +570,7 @@ body{
     display:flex;
   }
 
-  /* inicio Media Douglas */
+  /******************* inicio Media Douglas ************************/
 
   .secaoSobre article {
     width: 100vw;
@@ -804,6 +607,9 @@ body{
     padding: 8vw;
   }
 
+  .secaoSobre .flex-col:nth-last-child(2){
+    display:flex;
+  }
 
   .secaoSobre .cinza figure {
     display: flex;
